@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'spec'
+require 'rspec'
 
 require File.expand_path("../lib/env.rb", File.dirname(__FILE__))
 

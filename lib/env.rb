@@ -6,11 +6,12 @@ require 'pp'
 require 'pathname'
 require "fileutils"
 
-APP_PATH = Pathname.new(File.expand_path("..", File.dirname(__FILE__)))
-APP_NAME = "Caprese"
-LIB_PATH = APP_PATH + "lib"
+APP_PATH     = Pathname.new(File.expand_path("..", File.dirname(__FILE__)))
+APP_NAME     = "Caprese"
+LIB_PATH     = APP_PATH + "lib"
 ACTIONS_PATH = APP_PATH + "actions"
-CONFIG_PATH = APP_PATH + "config"
+CONFIG_PATH  = APP_PATH + "config"
+CACHE_PATH   = APP_PATH + "offline_cache"
 
 class String
   def classify
