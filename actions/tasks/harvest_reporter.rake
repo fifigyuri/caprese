@@ -1,7 +1,6 @@
 require 'psych'
 require 'harvested'
 require 'date'
-require 'debugger'
 
 namespace :harvest do
 
