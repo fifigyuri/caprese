@@ -1,5 +1,7 @@
 require 'rubygems'
-require 'appscript'
+require "bundler/setup"
+Bundler.require(:default)
+
 require 'yaml'
 require 'pp'
 
